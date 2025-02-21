@@ -8,10 +8,6 @@ const Counter = ()=>{
     const handInc =()=>{
         setCount(count+40)
     }
-    // 
-    useEffect(()=>{
-        prevCountRef.current = count
-    },[count])
     return(
         <div>
             {/* //content along with tag = element */}
