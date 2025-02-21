@@ -8,11 +8,7 @@
 //     },[inputValue])
 //     const handleChnnge =(e)=>{
 //         setInputValue(e.target.value)
-//     }
-//     return(
-//         <div>
-//              <h2>
-//                 UseCallback Hook Example
+//             UseCallback Hook Example
 //             </h2>
 //             <input 
 //             type ="text"
