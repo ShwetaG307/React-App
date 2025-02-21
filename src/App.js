@@ -8,7 +8,7 @@ import Storage from "./Components/Storage"
 function App() {
   return (
   <>
-      
+
       <FocusInput/>
       <Counter/>
       <Storage/>  
