@@ -4,18 +4,14 @@ import { useEffect, useRef, useState} from "react";
 
 const Counter = ()=>{
     const prevCountRef = useRef(0)
-    const[countValue,setCountValue] = useState(0) //
+    const[count,setCount] = useState(0) //
     const handInc =()=>{
-        setCountValue(countValue+40)
+        setCount(count+40)
     }
-    // 
-    useEffect(()=>{
-        prevCountRef.current = countValue
-    },[countValue])
     return(
         <div>
             {/* //content along with tag = element */}
-            <p> Count Value = {countValue}</p>  
+            <p> Count Value = {count}</p>  
             <button onClick={handInc}> Icrement </button>
             <p> Previous Counter Value = {prevCountRef.current}</p>
         </div> 
